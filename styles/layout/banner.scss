@@ -1,0 +1,68 @@
+.banner {
+  position: relative;
+  background-repeat: no-repeat;
+  background: linear-gradient(
+    90deg,
+    $bg-color-banner 0%,
+    $bg-color-banner 30%,
+    $bg-color 30%,
+    $bg-color 100%
+  );
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    padding-top: 5rem;
+    z-index: 3;
+  }
+  &__main-title {
+    font-family: $Playfair;
+    line-height: 4.3rem;
+    font-size: 3.2rem;
+  }
+  &__text {
+    font-family: $Roboto;
+    line-height: 150%;
+    color: $paragraph-color;
+    margin-top: 3.8rem;
+  }
+  &__btn {
+    display: inline-block;
+    border: 1px solid $button-banner-color;
+    padding: 2.6rem 3.8rem;
+    margin-top: 4.5rem;
+    text-decoration: none;
+    color: $white-color;
+    background-color: $button-banner-color;
+    font-family: $Roboto;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    z-index: 3;
+  }
+  &__pagination {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    z-index: 3;
+  }
+  &__pagination-number {
+    font-family: $Prata;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: $text-description;
+  }
+  &__img {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

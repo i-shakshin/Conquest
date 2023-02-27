@@ -1,0 +1,42 @@
+.footer {
+  a {
+    font-family: $Roboto;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: $footer-color;
+  }
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: $paragraph-color;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  &__title {
+    font-family: $Roboto;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: $white-color;
+  }
+}
+
+.mt-10 {
+  margin-top: 1rem;
+}
+
+.mt--10 {
+  margin-top: -1rem;
+}
+
+.mt-15 {
+  margin-top: 1.5rem;
+}

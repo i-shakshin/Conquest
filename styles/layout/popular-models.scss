@@ -1,0 +1,76 @@
+.popular-models {
+  background-color: $white-color;
+  &__main-title {
+    text-align: center;
+    padding-top: 8rem;
+    font-family: $Playfair;
+    font-size: 3.2rem;
+    line-height: 4.3rem;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8.5rem;
+  }
+  &__watchall {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 2.5rem;
+    text-decoration: none;
+  }
+  &__watchall-text {
+    font-family: $Roboto;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: $paragraph-color;
+  }
+  &__watchall-line {
+    margin-top: 1.2rem;
+    width: 10rem;
+    border: 1px solid $watchall-line-color;
+  }
+  &-list__cost {
+    display: flex;
+    align-items: baseline;
+  }
+  &-list__company {
+    font-family: $Playfair;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: $text-description;
+    padding-left: 3.6rem;
+    padding-top: 4rem;
+  }
+  &-list__price {
+    font-family: $Prata;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: $text-description;
+    margin-top: 1rem;
+    padding-left: 3.6rem;
+    margin-right: 0.6rem;
+  }
+  &-list__details {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 3.6rem;
+  }
+  &-list__text > a {
+    font-family: $Playfair;
+    line-height: 2.1rem;
+    color: $base-text;
+  }
+  &-list__line {
+    width: 3rem;
+    margin-right: 1.8rem;
+  }
+  &-list__item {
+    background-color: $bg-color;
+  }
+  &-list__img {
+    padding: 0 3rem;
+  }
+}
